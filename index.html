@@ -101,6 +101,30 @@
             color: #1e8449;
             font-weight: bold;
         }
+        /* ช่องใส่ภาพใหม่ */
+        .image-placeholder {
+            width: 100%;
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+            border: 4px dashed #a9dfbf;
+            border-radius: 16px;
+            padding: 20px;
+            background-color: #f8fff8;
+            box-shadow: 0 4px 15px rgba(39,174,96,0.1);
+        }
+        .image-placeholder img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        .image-placeholder .caption {
+            margin-top: 15px;
+            font-style: italic;
+            color: #555;
+            font-size: 1.1em;
+        }
         table {
             width: 100%;
             border-collapse: separate;
@@ -169,6 +193,12 @@
             <h1>ประวัติวิทยาลัยเทคนิคเลย</h1>
         </header>
 
+        <!-- ช่องใส่ภาพที่ 1: ภาพโลโก้หรือภาพตราวิทยาลัย (อยู่ด้านบนสุดหลังหัวข้อ) -->
+        <div class="image-placeholder">
+            <img src="" alt="ตราวิทยาลัยเทคนิคเลย">
+            <div class="caption">ตราวิทยาลัยเทคนิคเลย (เปลี่ยน src="" เป็น URL ภาพของคุณ)</div>
+        </div>
+
         <section class="address">
             <h2>ที่ตั้งและข้อมูลติดต่อ</h2>
             <p><strong>ที่ตั้ง :</strong> เลขที่ 272 ถนนเจริญรัฐ ตำบลกุดป่อง อำเภอเมือง จังหวัดเลย 42000</p>
@@ -178,6 +208,12 @@
             <p><strong>Email :</strong> loei@loeitech.mail.go.th</p>
             <p><strong>Facebook :</strong> <a href="https://www.facebook.com/www.loeitech.ac.th/" target="_blank">https://www.facebook.com/www.loeitech.ac.th/</a></p>
         </section>
+
+        <!-- ช่องใส่ภาพที่ 2: ภาพอาคารหรือสถานที่ตั้งปัจจุบัน -->
+        <div class="image-placeholder">
+            <img src="" alt="อาคารวิทยาลัยเทคนิคเลย">
+            <div class="caption">ภาพอาคารหรือสถานที่ตั้งวิทยาลัยเทคนิคเลยปัจจุบัน (เปลี่ยน src="" เป็น URL ภาพ)</div>
+        </div>
 
         <section>
             <h2>สีประจำวิทยาลัย : สีเขียว – ขาว</h2>
@@ -192,6 +228,12 @@
                 </div>
             </div>
         </section>
+
+        <!-- ช่องใส่ภาพที่ 3: ภาพเก่าของโรงเรียนช่างไม้เลย หรือภาพประวัติศาสตร์ -->
+        <div class="image-placeholder">
+            <img src="" alt="ภาพประวัติศาสตร์โรงเรียนช่างไม้เลย">
+            <div class="caption">ภาพโรงเรียนช่างไม้เลยสมัยเริ่มก่อตั้ง (เปลี่ยน src="" เป็น URL ภาพ)</div>
+        </div>
 
         <section>
             <h2>ประวัติความเป็นมา</h2>
@@ -239,6 +281,12 @@
                 </tbody>
             </table>
         </section>
+
+        <!-- ช่องใส่ภาพที่ 4: ภาพกิจกรรมหรือภาพรวมวิทยาลัยปัจจุบัน (อยู่ท้ายสุดก่อน footer) -->
+        <div class="image-placeholder">
+            <img src="" alt="ภาพกิจกรรมหรือภาพรวมวิทยาลัย">
+            <div class="caption">ภาพกิจกรรมนักเรียน-นักศึกษา หรือภาพรวมวิทยาลัยเทคนิคเลยปัจจุบัน (เปลี่ยน src="" เป็น URL ภาพ)</div>
+        </div>
 
         <footer>
             ข้อมูล ณ เดือนมกราคม 2569
